@@ -59,29 +59,41 @@ header nav ul li a:hover {
     color: #d4af37;
 }
 
+/* --- Hero Section (Floating White Card) --- */
 .hero {
-    background: transparent; /* Makes the background invisible so the image shows */
-    padding: 80px 0;
+    background: transparent; /* Lets the High Court image show through */
+    padding: 60px 0;
 }
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #ffffff; /* Brings back the solid white background just for this box */
+    padding: 40px; /* Adds breathing room inside the white box */
+    border-radius: 12px; /* Gives the box smooth, rounded corners */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Adds a shadow so it "floats" over the High Court */
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #1c2833; /* Brings back your original Navy Blue border */
+}
+
 .hero-text h2 {
     font-size: 2.2rem;
-    color: #d4af37; /* Changes heading to gold */
+    color: #1c2833; /* Brings back your original Navy Blue text */
     margin-bottom: 15px;
 }
+
 .hero-text p {
     font-size: 1.1rem;
-    color: #e0e0e0; 
+    color: #555; /* Brings back your original dark grey text */
 }
-.experience-section {
-    padding: 50px 0;
-    text-align: center;
-    background: transparent;
-}
-.experience-section h2 {
-    margin-bottom: 40px;
-    font-size: 2rem;
-    color: #fff; /* White text */
-}
+
 /* Make the cards slightly see-through black so the text is easy to read */
 .experience-card {
     background: rgba(0, 0, 0, 0.6); 

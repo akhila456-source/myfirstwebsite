@@ -8,10 +8,13 @@
 
 body {
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #fff; /* Changes default text to white so it's readable over the dark image */
+    /* This applies the image to the entire page with a dark overlay */
+    background: linear-gradient(rgba(20, 30, 40, 0.85), rgba(20, 30, 40, 0.85)), url('court.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background still while you scroll! */
 }
-
 .container {
     width: 80%;
     margin: auto;
@@ -56,92 +59,55 @@ header nav ul li a:hover {
     color: #d4af37;
 }
 
-/* Hero Section (With High Court Background) */
 .hero {
-    /* This adds a dark navy overlay on top of the High Court image */
-    background: linear-gradient(rgba(28, 40, 51, 0.8), rgba(28, 40, 51, 0.8)), url('court.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 80px 0; /* Made slightly taller to show off the image */
-    border-bottom: 1px solid #ddd;
+    background: transparent; /* Makes the background invisible so the image shows */
+    padding: 80px 0;
 }
-
-.hero-content {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.profile-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #d4af37; /* Changed border to gold to pop against the dark background */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
 .hero-text h2 {
     font-size: 2.2rem;
-    color: #ffffff; /* Changed text to white so it is readable */
+    color: #d4af37; /* Changes heading to gold */
     margin-bottom: 15px;
 }
-
 .hero-text p {
     font-size: 1.1rem;
-    color: #e0e0e0; /* Changed paragraph text to light gray */
+    color: #e0e0e0; 
 }
-/* Experience Section */
 .experience-section {
     padding: 50px 0;
     text-align: center;
+    background: transparent;
 }
-
 .experience-section h2 {
     margin-bottom: 40px;
     font-size: 2rem;
-    color: #1c2833;
+    color: #fff; /* White text */
 }
-
-.experience-grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
+/* Make the cards slightly see-through black so the text is easy to read */
 .experience-card {
-    background: #fff;
+    background: rgba(0, 0, 0, 0.6); 
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     flex: 1;
     border-top: 4px solid #d4af37;
     text-align: left;
+    color: #fff;
 }
-
 .experience-card h3 {
     margin-bottom: 15px;
-    color: #1c2833;
+    color: #d4af37; /* Gold headings inside the cards */
 }
-
-/* Contact Section */
 .contact-section {
-    background: #1c2833;
+    background: transparent;
     color: #fff;
     padding: 40px 0;
     text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle dividing line */
 }
-
 .contact-section h2 {
     margin-bottom: 20px;
     color: #d4af37;
 }
-
-.contact-section p {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-}
-
 /* Footer */
 footer {
     text-align: center;

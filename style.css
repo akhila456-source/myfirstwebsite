@@ -148,26 +148,26 @@ footer {
     color: #fff;
 }
 
-/* --- Click to Call Button (Center Aligned) --- */
+/* --- Click to Call Button --- */
 .call-btn {
-    display: block;           /* Changes it to a block so we can center it */
-    width: max-content;       /* Keeps the button exactly as wide as the text */
-    margin: 20px auto 0 auto; /* The 'auto' pushes it perfectly to the center */
-    background-color: #d4af37; 
-    color: #1c2833; 
+    display: block;           
+    width: max-content;       
+    margin: 20px auto 0 auto; /* Centers the button */
+    background-color: #d4af37; /* Professional Gold background */
+    color: #1c2833; /* Navy Blue text */
     padding: 12px 25px;
-    text-decoration: none;
+    text-decoration: none; /* This removes the blue underline */
     font-size: 1.1rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounds the corners of the button */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
 }
 
 .call-btn:hover {
     background-color: #bfa030; 
     color: #fff;
 }
+
 /* --- Mobile Compatibility (Media Queries) --- */
 @media (max-width: 768px) {
     /* Make the container take up more screen space on small phones */

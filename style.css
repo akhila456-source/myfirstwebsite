@@ -59,7 +59,7 @@ header nav ul li a:hover {
 /* Hero Section (With High Court Background) */
 .hero {
     /* This adds a dark navy overlay on top of the High Court image */
-    background: linear-gradient(rgba(28, 40, 51, 0.8), rgba(28, 40, 51, 0.8)), url('');
+    background: linear-gradient(rgba(28, 40, 51, 0.8), rgba(28, 40, 51, 0.8)), url('court.jpg');
     background-size: cover;
     background-position: center;
     padding: 80px 0; /* Made slightly taller to show off the image */

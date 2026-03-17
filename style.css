@@ -147,3 +147,52 @@ footer {
     background: #111;
     color: #fff;
 }
+
+/* --- Mobile Compatibility (Media Queries) --- */
+@media (max-width: 768px) {
+    /* Make the container take up more screen space on small phones */
+    .container {
+        width: 90%;
+    }
+
+    /* Center the header and stack the navigation links */
+    header h1 {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    header nav {
+        float: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    header nav ul li {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #334; /* Adds a subtle line between links */
+    }
+
+    /* Stack the profile photo and text, and center them */
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Stack the experience cards vertically */
+    .experience-grid {
+        flex-direction: column;
+    }
+
+    /* Adjust text sizes for smaller screens */
+    .hero-text h2 {
+        font-size: 1.8rem;
+    }
+}

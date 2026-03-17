@@ -23,7 +23,7 @@ body {
 
 /* Header & Navigation */
 header {
-    background: #1c2833; /* Professional Navy Blue */
+    background: transparent; 
     color: #fff;
     padding-top: 20px;
     min-height: 70px;

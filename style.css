@@ -83,15 +83,19 @@ header nav ul li a:hover {
     border: 5px solid #1c2833; /* Brings back your original Navy Blue border */
 }
 
+/* This changes the main heading color to yellow */
 .hero-text h2 {
     font-size: 2.2rem;
-    color: #ffcc00; 
+    color: #ffcc00; /* Bright, professional yellow */
     margin-bottom: 15px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.8); /* Adds a subtle shadow to make it pop against the background */
 }
 
+/* This changes the paragraph text color to white */
 .hero-text p {
     font-size: 1.1rem;
-    color: #ffffff; 
+    color: #ffffff; /* Pure white */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8); /* Adds a subtle shadow for readability */
 }
 /* Experience Section */
 .experience-section {

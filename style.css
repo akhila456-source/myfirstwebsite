@@ -148,13 +148,14 @@ footer {
     color: #fff;
 }
 
-/* --- Click to Call Button --- */
+/* --- Click to Call Button (Center Aligned) --- */
 .call-btn {
-    display: inline-block;
-    background-color: #d4af37; /* Professional Gold */
-    color: #1c2833; /* Navy Blue Text */
+    display: block;           /* Changes it to a block so we can center it */
+    width: max-content;       /* Keeps the button exactly as wide as the text */
+    margin: 20px auto 0 auto; /* The 'auto' pushes it perfectly to the center */
+    background-color: #d4af37; 
+    color: #1c2833; 
     padding: 12px 25px;
-    margin-top: 20px;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
@@ -164,10 +165,9 @@ footer {
 }
 
 .call-btn:hover {
-    background-color: #bfa030; /* Slightly darker gold when hovered over */
+    background-color: #bfa030; 
     color: #fff;
 }
-
 /* --- Mobile Compatibility (Media Queries) --- */
 @media (max-width: 768px) {
     /* Make the container take up more screen space on small phones */

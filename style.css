@@ -148,6 +148,26 @@ footer {
     color: #fff;
 }
 
+/* --- Click to Call Button --- */
+.call-btn {
+    display: inline-block;
+    background-color: #d4af37; /* Professional Gold */
+    color: #1c2833; /* Navy Blue Text */
+    padding: 12px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.call-btn:hover {
+    background-color: #bfa030; /* Slightly darker gold when hovered over */
+    color: #fff;
+}
+
 /* --- Mobile Compatibility (Media Queries) --- */
 @media (max-width: 768px) {
     /* Make the container take up more screen space on small phones */

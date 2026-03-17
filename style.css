@@ -69,7 +69,7 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     gap: 40px;
-    background: #ffffff; /* Brings back the solid white background just for this box */
+    background: transparent;
     padding: 40px; /* Adds breathing room inside the white box */
     border-radius: 12px; /* Gives the box smooth, rounded corners */
     box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Adds a shadow so it "floats" over the High Court */
@@ -102,7 +102,7 @@ header nav ul li a:hover {
 .experience-section h2 {
     margin-bottom: 40px;
     font-size: 2rem;
-    color: #1c2833;
+    color: #d4af37;
 }
 
 .experience-grid {
